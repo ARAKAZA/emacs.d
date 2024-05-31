@@ -9,6 +9,9 @@
 ;; (setq user-full-name "John Doe"
 ;;       user-mail-address "john@doe.com")
 
+(setq user-full-name "Providence Salumu"
+      user-mail-address "Providence.Salumu@smunix.com")
+
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
 ;; - `doom-font' -- the primary font to use
