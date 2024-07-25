@@ -72,3 +72,13 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+(after! lsp-ui
+  (setq lsp-enable-symbol-highlighting t)
+  (setq lsp-ui-doc-show-with-cursor t)
+  (setq lsp-ui-doc-show-with-mouse t)
+  (setq lsp-ui-sideline-enable t)
+  (setq lsp-signature-render-documentation t)
+  (setq lsp-completion-show-detail t)
+  (setq lsp-completion-show-kind t)
+  (setq lsp-ui-doc-enable t))
